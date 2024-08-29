@@ -1,12 +1,5 @@
-Darkk's On Person Scenes System
+Very much a WIP right now
 
-Today we release to you, On Person Scenes. This script enables you to create more immersion by setting a scene on your character that is visible to all those around you. This script removes the need to do /me is bleeding from the head, as this can now be done by a constant stream of the scene to your character.
+I'm just tryna see if I can get some proximity into overhead text chat 
 
-Features:
-- Works with onesync infinity
-- Easy to configure
-
-Required:
-Nothing, This is standalone
-
-Discord: https://discord.gg/tyz4bqv6ta
+Feel free to use and, hopefully fix/ confirm if it all works!
