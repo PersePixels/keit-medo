@@ -26,7 +26,7 @@ CreateThread(function()
                     local ons, x, y = GetHudScreenPositionFromWorldPosition(coords.x, coords.y, coords.z+0.3)
                     if not ons then
                         x = (x*100)
-                        y = (y*70)
+                        y = (y*80)
                         str = str.."<p style=\"left: "..x.."%;top: "..y.."%;-webkit-transform: translate(-50%, 0%);max-width: 100%;position: fixed;text-align: center;color: #ffffff;background-color: #000000AA;border-radius:3px; height: 32px;\"><b>⠀"..b.message.."⠀</b></p>"
                     end
                 end
@@ -38,7 +38,7 @@ CreateThread(function()
             end
         end
         if str ~= lstr then
-            SendNUIMessage({meta = "me", html = str})
+            SendNUIMessage({meta = "s", html = str})
             lstr = str
         end
     end
@@ -75,7 +75,7 @@ CreateThread(function()
             end
         end
         if str ~= lstr then
-            SendNUIMessage({meta = "sy", html = str})
+            SendNUIMessage({meta = "t", html = str})
             lstr = str
         end
     end
@@ -101,7 +101,7 @@ CreateThread(function()
                     if not ons then
                         x = (x*100)
                         y = (y*100)
-                        str = str.."<p style=\"left: "..x.."%;top: "..y.."%;-webkit-transform: translate(-50%, 0%);max-width: 100%;position: fixed;text-align: center;color: #fc0303;background-color: #000000AA;border-radius:3px; height: 32px;\"><b>⠀"..b.message.."⠀</b></p>"
+                        str = str.."<p style=\"left: "..x.."%;top: "..y.."%;-webkit-transform: translate(-50%, 0%);max-width: 100%;position: fixed;text-align: center;color: #ffc02e;background-color: #000000AA;border-radius:3px; height: 32px;\"><b>⠀"..b.message.."⠀</b></p>"
                     end
                 end
             end
@@ -112,7 +112,7 @@ CreateThread(function()
             end
         end
         if str ~= lstr then
-            SendNUIMessage({meta = "do", html = str})
+            SendNUIMessage({meta = "d", html = str})
             lstr = str
         end
     end
